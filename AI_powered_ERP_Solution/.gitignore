@@ -1,0 +1,53 @@
+# Ignore build artifacts
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+*.class
+
+# Maven wrapper
+!.mvn/wrapper/maven-wrapper.jar
+
+# Ignore IDE files
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Spring Tool Suite (STS)
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# VS Code
+.vscode/
+
+# Ignore dependency directories
+.m2/
+
+# Ignore logs
+*.log
+
+# Ignore database files (if any)
+*.db
+
+# Ignore temporary files and backups
+AI-powered-ERP-solution_1
+*.zip
+
+# Ignore help files (as per your input)
+HELP.md
